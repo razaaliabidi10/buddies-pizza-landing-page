@@ -16,12 +16,19 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        cheese:
+          "rounded-full border-2 border-ink bg-cheese text-cheese-foreground font-display font-extrabold uppercase tracking-wide shadow-sticker transition-transform hover:-translate-y-0.5 hover:shadow-sticker-lg active:translate-y-0.5 active:shadow-none",
+        sauce:
+          "rounded-full border-2 border-ink bg-primary text-primary-foreground font-display font-extrabold uppercase tracking-wide shadow-sticker transition-transform hover:-translate-y-0.5 hover:shadow-sticker-lg active:translate-y-0.5 active:shadow-none",
+        paper:
+          "rounded-full border-2 border-ink bg-card text-foreground font-display font-extrabold uppercase tracking-wide shadow-sticker transition-transform hover:-translate-y-0.5 hover:shadow-sticker-lg active:translate-y-0.5 active:shadow-none",
       },
       size: {
         default: "h-9 px-4 py-2",
         sm: "h-8 rounded-md px-3 text-xs",
         lg: "h-10 rounded-md px-8",
         icon: "h-9 w-9",
+        xl: "h-14 px-8 text-base",
       },
     },
     defaultVariants: {

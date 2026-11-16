@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- Menu items, prices and phone numbers live only in `src/lib/menu.ts`; components read from it so menu changes happen in one place (covered by `src/lib/menu.test.ts`).
+- Landing page sections live in `src/components/site/`; `src/routes/index.tsx` only composes them.
